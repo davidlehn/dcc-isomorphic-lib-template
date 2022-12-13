@@ -21,7 +21,7 @@
   ],
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
-  "types": "dist/index.d.ts",
+  "types": "src/types.d.ts",
   "devDependencies": {
     "@types/chai": "^4.3.4",
     "@types/mocha": "^10.0.1",
@@ -76,5 +76,8 @@
     "url": "https://github.com/digitalcredentials/isomorphic-lib-template"
   },
   "homepage": "https://github.com/digitalcredentials/isomorphic-lib-template",
-  "bugs": "https://github.com/digitalcredentials/isomorphic-lib-template/issues"
+  "bugs": "https://github.com/digitalcredentials/isomorphic-lib-template/issues",
+  "dependencies": {
+    "@digitalbazaar/ed25519-verification-key-2020": "^4.1.0"
+  }
 }

@@ -10,6 +10,11 @@
     "removeComments": false,
     "preserveConstEnums": true,
     "baseUrl": ".",
+    "allowJs": true,
+    "checkJs": false
+  },
+  "ts-node": {
+    "files": true
   },
   "include": [
     "src/**/*",
