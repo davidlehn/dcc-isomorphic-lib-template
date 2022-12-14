@@ -22,7 +22,7 @@
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
-  "types": "src/types.d.ts",
+  "types": "dist/types.d.ts",
   "devDependencies": {
     "@types/chai": "^4.3.4",
     "@types/mocha": "^10.0.1",
