@@ -1,25 +1,24 @@
 {
   "compilerOptions": {
-    "strict": true,
-    "target": "es2020",
-    "lib": ["es2020"],
-    "module": "es6",
-    "moduleResolution": "node",
-    "outDir": "dist/esm",
-    "noImplicitAny": true,
-    "removeComments": false,
-    "preserveConstEnums": true,
-    "baseUrl": ".",
     "allowJs": true,
-    "checkJs": false
+    "baseUrl": "src",
+    "checkJs": false,
+    "esModuleInterop": true,
+    "lib": ["es2022"],
+    "module": "es2022",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "dist",
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "strict": true,
+    "target": "es2022"
   },
   "ts-node": {
     "files": true
   },
   "include": [
-    "src/**/*",
-    ".eslintrc.js",
-    "karma.conf.js"
+    "src"
   ],
   "exclude": ["test", "node_modules", "dist"]
 }
